@@ -6,3 +6,12 @@ This application continuously scrapes the stock price change percentage from <a 
 ## About the Solution
 
 To solve this task, I have used the python package selenium. Even though I feel like using selenium for this kind of task is a bit much, the site seems to use some placeholders, making it impossible to just read the number out simply from the html.
+
+
+## How to run the Code
+
+The required packages can be found in the `requirements.txt` file. Just run the following command in your terminal to install all of them:
+
+```commandline
+> pip install -r requirements.txt 
+```
