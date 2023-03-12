@@ -8,7 +8,7 @@ url = "https://zse.hr/en/indeks-366/365?isin=HRZB00ICBEX6"
 
 def get_driver():
     """This function creates the webdriver. The following options where recommended in the Udemy Course this project is
-    based on, and solve common issues when accessing a brother via selenium"""
+    based on, and solve common issues when accessing a browser via selenium"""
     options = webdriver.EdgeOptions()
     options.add_argument("disable-infobars")
     options.add_argument("start_maximized")
