@@ -15,3 +15,9 @@ The required packages can be found in the `requirements.txt` file. Just run the 
 ```commandline
 > pip install -r requirements.txt 
 ```
+
+## To-Do
+
+- [x] Implement functions to scrape the stock price change from the website
+
+- [ ] Implement the Notification via E-Mail
