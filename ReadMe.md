@@ -23,4 +23,4 @@ The e-mail addresses as well as the password are stored in environment variables
 
 - [x] Implement functions to scrape the stock price change from the website
 
-- [ ] Implement the Notification via E-Mail
+- [x] Implement the Notification via E-Mail
