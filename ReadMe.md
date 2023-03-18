@@ -7,6 +7,7 @@ This application continuously scrapes the stock price change percentage from <a 
 
 To solve this task, I have used the python package selenium. Even though I feel like using selenium for this kind of task is a bit much, the site seems to use some placeholders, making it impossible to just read the number out simply from the html.
 
+For the part of sending the E-Mail I am using built-in Python packages `email` and `smtp`. Former I'll use to create the e-mail in a sendable format and latter will be used for establishing a connection to the smtp sever for outlook. 
 
 ## How to run the Code
 
@@ -15,6 +16,8 @@ The required packages can be found in the `requirements.txt` file. Just run the 
 ```commandline
 > pip install -r requirements.txt 
 ```
+
+The e-mail addresses as well as the password are stored in environment variables, that you will need to set for yourself locally (or just replace the text in your local copy of the code).
 
 ## To-Do
 
